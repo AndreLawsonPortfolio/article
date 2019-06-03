@@ -1,0 +1,66 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #f3f3f3 !important;
+}
+
+.header {
+  .columns {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  p {
+    color: #8a8a8d;
+    font-family: Verdana, sans-serif;
+    min-width: auto !important;
+    font-size: 10px;
+    padding-right: 15px;
+  }
+  a {
+    color: #f2665c;
+  }
+
+  .header-article {
+    width: 350px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  .body {
+    .columns {
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+    }
+  }
+}
+
+.footer {
+  background: #F2F2F2;
+  background-color: #F2F2F2;
+  .stay-connected {
+    padding-top: 15px;
+  }
+  .social-icons {
+    width: 50px;
+    display: inline-block;
+    padding-left: 15px;
+    padding-bottom: 40px;
+  }
+  p {
+    color: #8a8a8d;
+    font-family: Verdana, sans-serif;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+  }
+  a {
+    color: #f2665c;
+  }
+}
